@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oravic Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="logo-oravic.png">
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+  <!-- Animated gradient background -->
+  <div class="bg-gradient" aria-hidden="true"></div>
+  <div class="bg-grain" aria-hidden="true"></div>
+
+  <!-- INTRO -->
+  <section class="intro" id="intro">
+    <div class="intro-text" id="introText">Welcome to</div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="main hidden" id="main">
+    <header class="brand">
+      <span class="brand-mark">ORAVIC</span>
+      <span class="brand-sub">STUDIO</span>
+    </header>
+
+    <section class="bento">
+      <!-- Left -->
+<article class="card card-side fade-card">
+<h2 class="card-title">About Us</h2>
+
+<div class="about-short">
+  <p class="about-lead">
+    <strong>Oravic Studio</strong> adalah studio kreatif independen yang merancang identitas visual.
+  </p>
+  <p class="about-meta">
+    Didirikan 22 Feb 2026
+  </p>
+</article>
+      <!-- Center (main) -->
+      <article class="card card-main fade-card">
+        <h2 class="card-title">Our Services</h2>
+        <div class="services">
+          <button class="svc-btn" data-service="logo">Logo Design</button>
+          <button class="svc-btn" data-service="mascot">Mascot Design</button>
+          <button class="svc-btn" id="webBtn" data-service="web">Website Creation</button>
+        </div>
+      </article>
+
+      <!-- Right -->
+<article class="card card-side fade-card">
+  <div class="works-header">
+    <h2 class="card-title">Our Works</h2>
+    <div class="works-nav">
+      <span class="works-counter" id="worksCounter" aria-live="polite"></span>
+      <button class="work-arrow" id="prevWork" aria-label="Karya Sebelumnya">&#8592;</button>
+      <button class="work-arrow" id="nextWork" aria-label="Karya Selanjutnya">&#8594;</button>
+    </div>
+  </div>
+
+  <div class="works-carousel" id="worksCarousel">
+    <!-- Card 1 (Template utama untuk di-copas) -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="anti_recall.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport ANTI RECALL</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="bgr.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport BELGER</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="foursev.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport FOURSEV</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="jura.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport JURA</p>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="n7.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport NEMESIS SEVEN</p>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="pomed.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Identitas visual tim esport POMED X FAKE</p>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="tengkorak.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Contoh salah satu karya desain logo esport Oravic</p>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="your_team.webp" aria-label="Logo Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Esport</h3>
+        <p>Contoh salah satu karya desain logo esport Oravic</p>
+      </div>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="ksatria.webp" aria-label="Mascot Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Mascot Esport</h3>
+        <p>Contoh salah satu karya desain mascot esport Oravic</p>
+      </div>
+    </div>
+
+    <!-- Card 10 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="mascot_kuning.webp" aria-label="Mascot Esport"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Mascot Esport</h3>
+        <p>Contoh salah satu karya desain mascot esport Oravic</p>
+      </div>
+    </div>
+
+    <!-- Card 10 -->
+    <div class="work-item">
+      <div class="work-img-box">
+        <canvas class="work-canvas" data-work-src="dazorec.webp" aria-label="Logo Brand"></canvas>
+      </div>
+      <div class="work-desc">
+        <h3>Logo Brand</h3>
+        <p>Contoh salah satu karya desain logo brand Oravic</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+    </section>
+
+    <footer class="foot">© 2026 Oravic Studio</footer>
+  </main> 
+
+  <!-- MODAL: Logo Design Order -->
+  <div class="modal-overlay" id="logoModal" aria-hidden="true">
+    <div class="modal" id="logoModalContent" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="0">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">&times;</button>
+      <h2 id="modalTitle" class="modal-title">Pemesanan Logo Design</h2>
+
+      <form class="order-form" id="orderForm">
+        <!-- Jenis Logo -->
+        <fieldset class="field">
+          <legend class="field-legend">Jenis Logo</legend>
+          <label class="radio"><input type="radio" name="logoType" value="brand" id="logoBrand" /><span>Logo Brand</span></label>
+          <label class="radio"><input type="radio" name="logoType" value="komunitas" id="logoKomunitas" /><span>Logo Komunitas</span></label>
+          <label class="radio"><input type="radio" name="logoType" value="esport" id="logoEsport" /><span>Logo Esport</span></label>
+          <label class="radio"><input type="radio" name="logoType" value="lain" id="logoLain" /><span>Logo Lain</span></label>
+        </fieldset>
+
+        <!-- Paket -->
+        <fieldset class="field">
+          <legend class="field-legend">Paket</legend>
+          <label class="radio">
+            <input type="radio" name="package" value="starter" id="pkgStarter" required/>
+            <span>Paket Starter <em>Rp25.000</em></span>
+          </label>
+          <label class="radio">
+            <input type="radio" name="package" value="pro" id="pkgPro" />
+            <span>Paket Pro <em>Rp75.000</em></span>
+          </label>
+          <label class="radio radio-enterprise">
+            <input type="radio" name="package" value="enterprise" id="pkgEnterprise" />
+            <span>Paket Enterprise</span>
+          </label>
+        </fieldset>
+
+        <!-- Inputs -->
+        <div class="field">
+          <label class="input-label" for="logoName">Nama untuk logo</label>
+          <input type="text" id="logoName" name="logoName" placeholder="cth. Oravic" required />
+        </div>
+        <div class="field">
+          <label class="input-label" for="baseShape">Bentuk dasar</label>
+          <input type="text" id="baseShape" name="baseShape" placeholder="cth. perisai, lingkaran, hexagon" required/>
+        </div>
+        <div class="field">
+          <label class="input-label" for="baseColor">Warna dasar</label>
+          <input type="text" id="baseColor" name="baseColor" placeholder="cth. hitam emas, biru putih" required/>
+        </div>
+        <div class="field">
+          <label class="input-label" for="notes">Catatan tambahan (Opsional)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Deskripsikan kebutuhanmu..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Kirim Pesanan</button>
+      </form>
+    </div>
+
+    <!-- Enterprise detail pop-up card -->
+    <div class="ent-overlay" id="entOverlay"></div>
+    <div class="enterprise-card" id="enterpriseCard" aria-hidden="true">
+      <div class="enterprise-head">
+        <h3>Paket Enterprise</h3>
+      </div>
+      <p class="ent-tag"></p>
+      <ul class="ent-list">
+        <li>Revisi tanpa batas selama 30 hari</li>
+        <li>Pilihan konsep awal tanpa batas</li>
+        <li>File resolusi tinggi (SVG, EPS, AI, PNG, PDF)</li>
+        <li>Akses Antrean Prioritas</li>
+        <li>Variasi logo (primary, secondary, submark, monogram)</li>
+        <li>Brand mini-guide (warna &amp; font)</li>
+      </ul>
+      <p class="ent-price">Penetapan harga fleksibel yang disesuaikan dengan nilai investasi dan kebutuhan spesifik klien, menjamin kualitas maksimal serta kecepatan eksekusi.</p>
+      <button class="ent-close" id="entClose" aria-label="Tutup">Oke</button>
+    </div>
+
+    <div class="pro-overlay" id="proOverlay"></div>
+    <div class="pro-card" id="proCard" aria-hidden="true">
+      <div class="pro-head">
+        <h3>Paket Pro</h3>
+      </div>
+      <p class="pro-tag"></p> 
+      <ul class="pro-list">
+        <li>Revisi maksimal 5 kali</li>
+        <li>3 pilihan konsep awal</li>
+        <li>File resolusi tinggi (PNG, SVG)</li>
+        <li>Variasi logo (primary & secondary)
+      </ul>
+      <button class="pro-close" id="proClose" aria-label="Tutup">Oke</button>
+    </div>
+
+    <div class="str-overlay" id="strOverlay"></div>
+    <div class="starter-card" id="starterCard" aria-hidden="true">
+      <div class="starter-head">
+        <h3>Paket Starter</h3>
+      </div>
+      <p class="str-tag"></p> 
+      <ul class="str-list">
+        <li>Revisi maksimal 2 kali</li>
+        <li>1 konsep awal</li>
+        <li>File resolusi tinggi (PNG)</li>
+      </ul>
+      <button class="str-close" id="strClose" aria-label="Tutup">Oke</button>
+    </div>
+  </div>
+
+<!-- MODAL: Mascot Design Order -->
+<div class="modal-overlay" id="MascotModal" aria-hidden="true">
+<div class="modal" id="mascotModalContent" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="0">
+  <button class="modal-close" id="modalMascotClose" aria-label="Tutup">&times;</button>
+  <h2 id="mascotTitle" class="modal-title">Pemesanan Mascot Design</h2>
+ 
+  <form class="order-form" id="orderMascotForm">
+    <!-- Jenis Maskot -->
+    <fieldset class="field">
+      <legend class="field-legend">Jenis Maskot</legend>
+      <label class="radio"><input id="mascotBrand" type="radio" name="mascotType" value="brand" checked /><span>Maskot Brand</span></label>
+      <label class="radio"><input id="mascotKomunitas" type="radio" name="mascotType" value="komunitas" /><span>Maskot Komunitas</span></label>
+      <label class="radio"><input id="mascotEsport" type="radio" name="mascotType" value="esport" /><span>Maskot Esport</span></label>
+      <label class="radio"><input id="mascotLain" type="radio" name="mascotType" value="lain" /><span>Maskot Lain</span></label>
+    </fieldset>
+
+        <!-- Input Nama Maskot -->
+<div class="field">
+  <label class="input-label" for="mascotName">Nama untuk maskot</label>
+  <input type="text" id="mascotName" name="logoName" placeholder="cth. Oravic" />
+  <!-- Checkbox khusus untuk nama -->
+  <label class="checkbox-label" style="margin-top: 5px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer;">
+      <input type="checkbox" id="noIdeaName" /> Belum ada ide
+  </label>
+</div>
+
+<!-- Deskripsi Maskot -->
+<div class="field">
+  <label class="input-label" for="notesMascot">Deskripsi Maskot</label>
+  <textarea id="notesMascot" name="notes" rows="3" placeholder="cth. Paus Orca bertubuh manusia dengan warna hitam kuning"></textarea>
+  <!-- Checkbox khusus untuk deskripsi -->
+  <label class="checkbox-label" style="margin-top: 5px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer;">
+      <input type="checkbox" id="noIdeaNotes" /> Belum ada ide
+  </label>
+</div>
+
+<div class="view-grid-container">
+  <label class="field-legend" style="margin-bottom: 8px; display: block;">SUDUT PANDANG MASKOT</label>
+  
+  <div class="view-grid">
+      <!-- Baris 1 (Atas) -->
+      <label class="grid-box" title="Kanan belakang">
+          <input type="checkbox" name="angle" value="front-left">
+          <span class="box-check"></span>
+      </label>
+      <label class="grid-box" title="Belakang">
+          <input type="checkbox" name="angle" value="front">
+          <span class="box-check"></span>
+      </label>
+      <label class="grid-box" title="Kiri belakang">
+          <input type="checkbox" name="angle" value="front-right">
+          <span class="box-check"></span>
+      </label>
+
+      <!-- Baris 2 (Tengah) -->
+      <label class="grid-box" title="Kanan">
+          <input type="checkbox" name="angle" value="left">
+          <span class="box-check"></span>
+      </label>
+      
+      <!-- Kotak Tengah: Ikon Manusia (Kepala Sampai Dada) -->
+      <div class="grid-box center-person">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="#808080">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+      </div>
+
+      <label class="grid-box" title="Kiri">
+          <input type="checkbox" name="angle" value="right">
+          <span class="box-check"></span>
+      </label>
+
+      <!-- Baris 3 (Bawah) -->
+      <label class="grid-box" title="Kanan depan">
+          <input type="checkbox" name="angle" value="back-left">
+          <span class="box-check"></span>
+      </label>
+      <label class="grid-box" title="Depan">
+          <input type="checkbox" name="angle" value="back">
+          <span class="box-check">Depan</span>
+      </label>
+      <label class="grid-box" title="Kiri depan">
+          <input type="checkbox" name="angle" value="back-right">
+          <span class="box-check"></span>
+      </label>
+  </div>
+</div>
+
+<!-- Pilihan Pose Maskot -->
+<div class="field pose-field-wrapper">
+  <label class="field-legend pose-legend">PILIHAN POSE</label>
+  
+  <!-- Checkbox Pilihan Pose (Gaya Kotak Card seperti Jenis Maskot) -->
+  <div class="pose-options-container">
+      <label class="radio pose-card-label">
+          <input type="checkbox" name="pose" value="standar" checked disabled />
+          <span>Standar (Default / Pose Utama)</span>
+      </label>
+      <label class="radio pose-card-label">
+          <input type="checkbox" name="pose" value="pegang produk" />
+          <span>Pegang Produk</span>
+      </label>
+      <label class="radio pose-card-label">
+          <input type="checkbox" name="pose" value="melompat" />
+          <span>Melompat</span>
+      </label>
+      <label class="radio pose-card-label">
+          <input type="checkbox" name="pose" value="menyapa" />
+          <span>Menyapa</span>
+      </label>
+  </div>
+
+  <!-- Pilihan Pose Kustom (Tambah Input Dinamis) -->
+  <div class="custom-pose-section">
+      <label class="input-label custom-pose-title">POSE KUSTOM TAMBAHAN</label>
+      
+      <div id="customPoseContainer" class="custom-pose-container">
+          <div class="custom-pose-item">
+              <input type="text" name="customPose[]" placeholder="cth. Pose bawa senjata, pose keren..." class="custom-pose-input" />
+          </div>
+      </div>
+
+      <button type="button" id="addPoseBtn" class="add-pose-btn">+ Tambah Pose Lainnya</button>
+  </div>
+</div>
+
+
+
+    <button type="submit" class="submit-btn">Kirim Pesanan</button>
+  </form>
+</div>
+
+  </div>
+</div>
+
+
+<!-- Elemen Notifikasi Toast -->
+<div class="toast" id="toast" aria-hidden="true">Layanan ini akan segera tersedia</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
