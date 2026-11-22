@@ -8,7 +8,7 @@
 
   const SEQ = [
     { text: "Welcome to", hold: 900 },
-    { text: "Oravic", hold: 1100 },
+    { text: "DAZOREC", hold: 900 },
   ];
 
   function showIntroText(item) { 
@@ -253,7 +253,7 @@ if (mascotModalContent) {
 
     const phoneNo = "6281234567890"; 
 
-    const message = `Halo Oravic Studio, saya ingin memesan jasa pembuatan logo dengan detail berikut:
+    const message = `Halo Dazorec Studio, saya ingin memesan jasa pembuatan logo dengan detail berikut:
 
 *--- DATA PESANAN ---*
 - *Jenis Logo:* ${logotype}
@@ -349,7 +349,7 @@ document.getElementById('orderMascotForm').addEventListener('submit', function(e
   const posesText = posesList.length > 0 ? posesList.join(', ') : '-';
 
   // --- Format Pesan WhatsApp ---
-  let message = `Halo Oravic Studio, saya ingin memesan Maskot dengan detail berikut:%0A%0A` +
+  let message = `Halo Dazorec Studio, saya ingin memesan Maskot dengan detail berikut:%0A%0A` +
                 `*FORM PEMESANAN MASCOT DESIGN*%0A` +
                 `----------------------------------------%0A` +
                 `• *Jenis Maskot:* ${mascotType}%0A` +

@@ -115,7 +115,7 @@ body { min-height: 100vh; position: relative; }
   gap: 10px;
   letter-spacing: 0.18em;
 }
-.brand-mark { font-weight: 800; font-size: 1.1rem; color:#fdee19; }
+.brand-mark { font-weight: 800; font-size: 1.1rem; color:#ff7000; }
 .brand-sub { font-size: 0.7rem; color: var(--muted); letter-spacing: 0.3em; }
 
 .bento {
@@ -977,7 +977,7 @@ input[type="checkbox"]:disabled {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.4px;
-  color: #fdee19;
+  color: #ff7000;
   opacity: 0;
   transform: translateX(4px);
   transition: opacity 0.25s ease, transform 0.25s ease;
@@ -1007,8 +1007,8 @@ input[type="checkbox"]:disabled {
 }
 
 .work-arrow:hover {
-  border-color: #fdee19;
-  color: #fdee19;
+  border-color: #ff7000;
+  color: #ff7000;
   background: rgba(253, 238, 25, 0.08);
 }
 
@@ -1097,7 +1097,7 @@ input[type="checkbox"]:disabled {
   z-index: 30;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  border-color: rgba(253, 238, 25, 0.45);
+  border-color: rgba(253, 147, 25, 0.45);
   pointer-events: auto;
 }
 
